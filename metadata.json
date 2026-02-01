@@ -1,0 +1,43 @@
+{
+  "id": 11863,
+  "title": "Intelligent Project Delivery and Task Management System",
+  "slug": "intelligent-project-delivery-and-task-management-system-11863",
+  "description": "HOW IT WORKSAutomates daily project monitoring by fetching project data, analyzing tasks andteam capacity with anthropic models, and generating resource optimizationrecommendations. Target audience: project managers, engineering leads, andresource planners managing complex team assignments. Problem solved: manualcapacity planning misses bottlenecks; AI analysis identifies effort mismatchesand delays proactively. Workflow runs daily checks, merges project and teamprofiles, analyzes tasks via multiple anthropic agents (breakdown, estimation,assignment), calculates effort allocation, detects delays, generates rebalancingrecommendations, notifies stakeholders, and tracks milestones.SETUP STEPS 1. Configure daily trigger schedule. 2. Connect project management system APIs. 3. Set anthropic API keys with task analysis prompts. 4. Enable email notifications for managers. 5. Connect reporting database for tracking.PREREQUISITESAnthropic API access, project management tool credentials, team capacitydatabaseUSE CASESSaaS teams managing feature backlogs, consulting firms balancing client projectsCUSTOMIZATIONAdjust effort estimation models. Add Slack notifications for urgency.BENEFITSDetects delays 2-3 weeks early, improves team utilization by 25%",
+  "metadescription": "Automate daily project monitoring, spot bottlenecks early, and optimize team resources with AI-driven insights. Boost project efficiency—learn more now!",
+  "summary": "Automates daily project oversight by aggregating project and team data, leveraging anthropic models for advanced task and capacity analysis, and delivering resource rebalancing recommendations.  \nEliminates manual planning errors, surfacing bottlenecks, mismatches, and delays through proactive AI-driven insights.  \nIntegrates with project management systems, team databases, and notifies stakeholders with actionable updates.  \nCustomizable with adjustable estimation models and optional Slack alerts for urgent actions.  \nIdeal for SaaS teams or consultancies juggling complex projects, boosting team utilization up to 25%, and identifying risks two to three weeks ahead.",
+  "date": "16 Dec 2025",
+  "createdAtRaw": "2025-12-16T13:13:26.012+00:00",
+  "categories": [
+    "Project Management",
+    "AI RAG"
+  ],
+  "nodeTypes": [
+    "n8n-nodes-base.if",
+    "n8n-nodes-base.set",
+    "n8n-nodes-base.code",
+    "n8n-nodes-base.stickyNote",
+    "n8n-nodes-base.httpRequest",
+    "@n8n/n8n-nodes-langchain.agent",
+    "n8n-nodes-base.scheduleTrigger",
+    "@n8n/n8n-nodes-langchain.toolCode",
+    "@n8n/n8n-nodes-langchain.agentTool",
+    "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+    "@n8n/n8n-nodes-langchain.outputParserStructured"
+  ],
+  "author": {
+    "name": "Cheng Siong Chin",
+    "username": "cschin",
+    "avatar": "https://gravatar.com/avatar/54544f98e839bb9dd9a764ad1e6823eeddb6db5138d201e42f291a7b0a73303f?r=pg&d=retro&size=200",
+    "verified": true
+  },
+  "popularity": 59,
+  "visitors": 88,
+  "inserters": 38,
+  "templateUrl": "https://n8n.io/workflows/11863",
+  "readme": "",
+  "thumbnail": "https://supabase.amastuces.com/storage/v1/object/public/worklowscreenshot/11863-intelligent-project-delivery-and-task-management-system.webp",
+  "complexityLevel": "advanced",
+  "templateData": null,
+  "price": 0,
+  "referalUrl": null
+}
